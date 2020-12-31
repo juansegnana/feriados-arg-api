@@ -11,15 +11,16 @@ export const obtenerFecha = ( date ) => {
         mesNombre: meses[ date.getMonth() ],
         año: date.getFullYear()
     }; 
-
+    
     // Uso temporal para pruebas
-    /* const fecha = {
-        dia: 6,
-        mes: 8,
-        mesNombre: meses[ 7 ],
-        año: 2020
-    }; */
-
+    /*
+    const fecha = {
+        dia: 1,
+        mes: 1,
+        mesNombre: meses[ 0 ],
+        año: 2021
+    };
+    */
     
     return fecha;
 }
