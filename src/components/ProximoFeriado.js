@@ -16,7 +16,7 @@ export const ProximoFeriado = () => {
     let daysLeft;
     let dateNext;
     
-    const { loading, data } = useFetch(`http://nolaborables.com.ar/api/v2/feriados/${ año }`);
+    const { loading, data } = useFetch(`https://nolaborables.com.ar/api/v2/feriados/${ año }`);
     
     // Obtener feriado más cercano
     if ( !!data ){
